@@ -1,2 +1,2 @@
-# Lp-store
+# Lp-Store
 LP Store Application using Spring Boot
