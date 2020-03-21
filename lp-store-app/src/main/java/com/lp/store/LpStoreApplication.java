@@ -1,4 +1,4 @@
-package com.lp.store.main;
+package com.lp.store;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -14,10 +14,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableJpaRepositories(basePackages="com.lp.store.repositories")
 @EnableTransactionManagement
 @EntityScan(basePackages="com.lp.store.entities")
-public class Application {
+public class LpStoreApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(LpStoreApplication.class, args);
     }
     
 }
